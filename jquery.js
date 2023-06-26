@@ -1,26 +1,27 @@
-$(document).ready(function () {
-  // $('body').html('<h1>Hello jQuery!!</h1>');
-  // $('.box1').css({
-  //   'background-color': '#0000FF',
-  //   'height': '100px'
-  // });
-  // $('.box1').slideDown(function(){
-  //     $('.box1').css({
-  //     'background-color': 'blue',
-  //     'width': '200px',
-  //     'height': '100px'
-  //     }).slideUp();
-  //     });
-  // $('.box1').mouseover(function(){
-  //   $('.box1').css('background', 'blue');
-  // });
-  // $('.box1').mouseout(function(){
-  //   $('.box1').css('background', 'red');
-  // });
-  $('.box1').on('click', function(){
-    $('.box1').addClass('box1-ext');
-  });
-  $('.box1').mouseout(function(){
-    $('.box1').removeClass('box1-ext');
+// $(function(){
+//   $('.bg1').on('click', function(){
+//     $('.bg1').slideUp();
+//   });
+
+//   $('.bg2').on('click', function(){
+//     $('.bg2').slideUp();
+//   });
+
+//   $('.bg3').on('click', function(){
+//     $('.bg3').slideUp();
+//   });
+
+//   $('.bg4').on('click', function(){
+//     $('.bg4').slideUp();
+//   });
+// });
+// $(function(){
+//   $('.box1').on('click', function(){
+//     $(this).slideUp();
+//   });
+// });
+$(function(){
+  $('button').on('click', function(){
+    $('ul').children().css('color','red');
   });
 });
