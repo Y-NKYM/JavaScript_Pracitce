@@ -1,6 +1,14 @@
 .box1 {
-  display: none;
+  /*display:none;*/
   background-color: #FF0000;
   height: 200px;
   width: 200px;
+}
+
+.box1-ex {
+  border: 10px solid black;
+}
+
+.box1-ext {
+  border: 10px solid green;
 }
